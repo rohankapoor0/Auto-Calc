@@ -1,0 +1,974 @@
+{
+  "hyundai_creta_15_crdi_6mt": {
+    "id": "hyundai_creta_15_crdi_6mt",
+    "name": "Hyundai Creta",
+    "variant": "1.5 U2 CRDi Diesel 6MT",
+    "model_year": "2024",
+    "manufacturer": "Hyundai",
+    "fuel_type": "Diesel",
+    "drivetrain": "FWD",
+    "transmission": "6-Speed Manual",
+    "description": "Hyundai Creta 1.5L U2 CRDi Diesel, 6-speed manual, front-wheel drive (Design Dossier reference vehicle).",
+    "source_reference": "Hyundai Creta Engineering Design Dossier & Official Specifications",
+    "source_url": "https://www.hyundai.com/in/en/find-a-car/creta/specifications",
+    "source_type": "Manufacturer Design Dossier & Brochure",
+    "dimensions": {
+      "length_mm": {
+        "value": 4330.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 1790.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "height_mm": {
+        "value": 1635.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "wheelbase_mm": {
+        "value": 2610.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "ground_clearance_mm": {
+        "value": 190.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "boot_capacity_l": {
+        "value": 433.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "fuel_tank_capacity_l": {
+        "value": 50.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "turning_radius_m": {
+        "value": 5.3,
+        "unit": "m",
+        "status": "verified"
+      }
+    },
+    "engine": {
+      "displacement_cc": {
+        "value": 1493.0,
+        "unit": "cc",
+        "status": "verified"
+      },
+      "cylinders": {
+        "value": 4,
+        "unit": "-",
+        "status": "verified"
+      },
+      "max_power_kw": {
+        "value": 85.3,
+        "unit": "kW",
+        "status": "verified"
+      },
+      "rated_power_rpm": {
+        "value": 4000.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "max_torque_nm": {
+        "value": 250.0,
+        "unit": "Nm",
+        "status": "verified"
+      },
+      "torque_rpm_range": {
+        "value": "1500 - 2750",
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_start_rpm": {
+        "value": 1500.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_end_rpm": {
+        "value": 2750.0,
+        "unit": "rpm",
+        "status": "verified"
+      }
+    },
+    "transmission_ratios": {
+      "gear_ratios": {
+        "value": {
+          "1": 3.833,
+          "2": 2.143,
+          "3": 1.37,
+          "4": 1.036,
+          "5": 0.839,
+          "6": 0.727
+        },
+        "unit": "-",
+        "status": "verified"
+      },
+      "reverse_gear_ratio": {
+        "value": 3.7,
+        "unit": "-",
+        "status": "verified"
+      },
+      "final_drive_ratio": {
+        "value": 4.0,
+        "unit": "-",
+        "status": "verified"
+      },
+      "transmission_efficiency": {
+        "value": 0.9,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard manual transaxle mechanical efficiency"
+      }
+    },
+    "tyres": {
+      "tyre_spec": {
+        "value": "215/55 R17",
+        "unit": "-",
+        "status": "verified"
+      },
+      "rim_diameter_in": {
+        "value": 17.0,
+        "unit": "inch",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 215.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "aspect_ratio": {
+        "value": 55.0,
+        "unit": "%",
+        "status": "verified"
+      },
+      "deflection_factor": {
+        "value": 0.97,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Radial passenger car tyre carcass radial deflection under rated load"
+      }
+    },
+    "weights": {
+      "kerb_mass_kg": {
+        "value": 1550.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "gross_vehicle_mass_kg": {
+        "value": 1805.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "front_weight_share": {
+        "value": 0.61,
+        "unit": "-",
+        "status": "verified"
+      },
+      "cg_height_m": {
+        "value": 0.605,
+        "unit": "m",
+        "status": "assumed",
+        "rationale": "Compact SUV Centre of Gravity height estimation in dossier"
+      }
+    },
+    "aerodynamics_road": {
+      "drag_coefficient": {
+        "value": 0.35,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard aerodynamic drag coefficient for Creta profile"
+      },
+      "frontal_area_m2": {
+        "value": 2.4,
+        "unit": "m\u00b2",
+        "status": "assumed",
+        "rationale": "Frontal projected area estimation (approx 0.85 \u00d7 W \u00d7 H)"
+      },
+      "air_density_kg_m3": {
+        "value": 1.225,
+        "unit": "kg/m\u00b3",
+        "status": "assumed",
+        "rationale": "ISA sea-level standard atmospheric density at 15\u00b0C"
+      },
+      "rolling_resistance_coeff": {
+        "value": 0.015,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Radial passenger tyres on dry smooth asphalt"
+      },
+      "tyre_road_adhesion": {
+        "value": 0.8,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Dry asphalt coefficient of friction"
+      }
+    },
+    "clutch": {
+      "outer_diameter_mm": {
+        "value": 240.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "inner_diameter_mm": {
+        "value": 155.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "friction_coefficient": {
+        "value": 0.35,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Organic clutch lining friction coefficient"
+      },
+      "friction_surfaces": {
+        "value": 2,
+        "unit": "-",
+        "status": "verified"
+      },
+      "safety_factor": {
+        "value": 1.25,
+        "unit": "-",
+        "status": "verified"
+      }
+    },
+    "awd_hypothetical": {
+      "supported": true,
+      "track_width_m": {
+        "value": 1.55,
+        "unit": "m",
+        "status": "assumed"
+      },
+      "test_speed_mps": {
+        "value": 3.32,
+        "unit": "m/s",
+        "status": "assumed"
+      }
+    }
+  },
+  "tata_nexon_12_petrol_6mt": {
+    "id": "tata_nexon_12_petrol_6mt",
+    "name": "Tata Nexon",
+    "variant": "1.2 Revotron Turbo Petrol 6MT",
+    "model_year": "2024",
+    "manufacturer": "Tata Motors",
+    "fuel_type": "Petrol",
+    "drivetrain": "FWD",
+    "transmission": "6-Speed Manual",
+    "description": "Tata Nexon 1.2L 3-cylinder Revotron Turbocharged Petrol with 6-speed manual transmission.",
+    "source_reference": "Tata Motors Nexon Official Brochure & Technical Specifications",
+    "source_url": "https://cars.tatamotors.com/suv/nexon",
+    "source_type": "Official Manufacturer Brochure",
+    "dimensions": {
+      "length_mm": {
+        "value": 3995.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 1804.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "height_mm": {
+        "value": 1620.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "wheelbase_mm": {
+        "value": 2498.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "ground_clearance_mm": {
+        "value": 208.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "boot_capacity_l": {
+        "value": 382.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "fuel_tank_capacity_l": {
+        "value": 44.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "turning_radius_m": {
+        "value": 5.1,
+        "unit": "m",
+        "status": "verified"
+      }
+    },
+    "engine": {
+      "displacement_cc": {
+        "value": 1199.0,
+        "unit": "cc",
+        "status": "verified"
+      },
+      "cylinders": {
+        "value": 3,
+        "unit": "-",
+        "status": "verified"
+      },
+      "max_power_kw": {
+        "value": 88.2,
+        "unit": "kW",
+        "status": "verified"
+      },
+      "rated_power_rpm": {
+        "value": 5500.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "max_torque_nm": {
+        "value": 170.0,
+        "unit": "Nm",
+        "status": "verified"
+      },
+      "torque_rpm_range": {
+        "value": "1750 - 4000",
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_start_rpm": {
+        "value": 1750.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_end_rpm": {
+        "value": 4000.0,
+        "unit": "rpm",
+        "status": "verified"
+      }
+    },
+    "transmission_ratios": {
+      "gear_ratios": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable",
+        "note": "Tata Motors does not publish individual gear ratios in public brochures or owner manuals."
+      },
+      "reverse_gear_ratio": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable"
+      },
+      "final_drive_ratio": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable"
+      },
+      "transmission_efficiency": {
+        "value": 0.9,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Common engineering assumption for transverse 6MT transaxles"
+      }
+    },
+    "tyres": {
+      "tyre_spec": {
+        "value": "215/60 R16",
+        "unit": "-",
+        "status": "verified"
+      },
+      "rim_diameter_in": {
+        "value": 16.0,
+        "unit": "inch",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 215.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "aspect_ratio": {
+        "value": 60.0,
+        "unit": "%",
+        "status": "verified"
+      },
+      "deflection_factor": {
+        "value": 0.97,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard radial tyre deflection factor under vehicle load"
+      }
+    },
+    "weights": {
+      "kerb_mass_kg": {
+        "value": 1255.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "gross_vehicle_mass_kg": {
+        "value": 1660.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "front_weight_share": {
+        "value": 0.6,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Front-engine front-wheel-drive compact petrol SUV weight distribution estimation"
+      },
+      "cg_height_m": {
+        "value": 0.59,
+        "unit": "m",
+        "status": "assumed",
+        "rationale": "CG height estimation based on 208 mm ground clearance and 1620 mm roofline"
+      }
+    },
+    "aerodynamics_road": {
+      "drag_coefficient": {
+        "value": 0.36,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Typical compact SUV aerodynamic drag coefficient assumption"
+      },
+      "frontal_area_m2": {
+        "value": 2.35,
+        "unit": "m\u00b2",
+        "status": "assumed",
+        "rationale": "Frontal projected area estimation (approx 0.80 \u00d7 W \u00d7 H)"
+      },
+      "air_density_kg_m3": {
+        "value": 1.225,
+        "unit": "kg/m\u00b3",
+        "status": "assumed",
+        "rationale": "ISA sea-level standard air density"
+      },
+      "rolling_resistance_coeff": {
+        "value": 0.015,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Radial passenger tyres on smooth asphalt"
+      },
+      "tyre_road_adhesion": {
+        "value": 0.8,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Dry asphalt road surface adhesion"
+      }
+    },
+    "clutch": {
+      "outer_diameter_mm": {
+        "value": null,
+        "unit": "mm",
+        "status": "unavailable",
+        "note": "Clutch friction face dimensions are proprietary service data not published publicly."
+      },
+      "inner_diameter_mm": {
+        "value": null,
+        "unit": "mm",
+        "status": "unavailable"
+      },
+      "friction_coefficient": {
+        "value": 0.35,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard organic dry clutch lining friction coefficient"
+      },
+      "friction_surfaces": {
+        "value": 2,
+        "unit": "-",
+        "status": "verified"
+      },
+      "safety_factor": {
+        "value": 1.25,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard commercial automotive clutch design safety factor"
+      }
+    },
+    "awd_hypothetical": {
+      "supported": false,
+      "note": "AWD calculations disabled; vehicle is strictly front-wheel drive (FWD)."
+    }
+  },
+  "tata_nexon_15_diesel_6mt": {
+    "id": "tata_nexon_15_diesel_6mt",
+    "name": "Tata Nexon",
+    "variant": "1.5 Revotorq Diesel 6MT",
+    "model_year": "2024",
+    "manufacturer": "Tata Motors",
+    "fuel_type": "Diesel",
+    "drivetrain": "FWD",
+    "transmission": "6-Speed Manual",
+    "description": "Tata Nexon 1.5L 4-cylinder Revotorq Turbocharged Diesel with 6-speed manual transmission.",
+    "source_reference": "Tata Motors Nexon Official Brochure & Technical Specifications",
+    "source_url": "https://cars.tatamotors.com/suv/nexon",
+    "source_type": "Official Manufacturer Brochure",
+    "dimensions": {
+      "length_mm": {
+        "value": 3995.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 1804.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "height_mm": {
+        "value": 1620.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "wheelbase_mm": {
+        "value": 2498.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "ground_clearance_mm": {
+        "value": 208.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "boot_capacity_l": {
+        "value": 382.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "fuel_tank_capacity_l": {
+        "value": 44.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "turning_radius_m": {
+        "value": 5.1,
+        "unit": "m",
+        "status": "verified"
+      }
+    },
+    "engine": {
+      "displacement_cc": {
+        "value": 1497.0,
+        "unit": "cc",
+        "status": "verified"
+      },
+      "cylinders": {
+        "value": 4,
+        "unit": "-",
+        "status": "verified"
+      },
+      "max_power_kw": {
+        "value": 84.6,
+        "unit": "kW",
+        "status": "verified"
+      },
+      "rated_power_rpm": {
+        "value": 3750.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "max_torque_nm": {
+        "value": 260.0,
+        "unit": "Nm",
+        "status": "verified"
+      },
+      "torque_rpm_range": {
+        "value": "1500 - 2750",
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_start_rpm": {
+        "value": 1500.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_end_rpm": {
+        "value": 2750.0,
+        "unit": "rpm",
+        "status": "verified"
+      }
+    },
+    "transmission_ratios": {
+      "gear_ratios": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable",
+        "note": "Tata Motors does not publish individual gear ratios in public brochures or owner manuals."
+      },
+      "reverse_gear_ratio": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable"
+      },
+      "final_drive_ratio": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable"
+      },
+      "transmission_efficiency": {
+        "value": 0.9,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Common engineering assumption for transverse 6MT transaxles"
+      }
+    },
+    "tyres": {
+      "tyre_spec": {
+        "value": "215/60 R16",
+        "unit": "-",
+        "status": "verified"
+      },
+      "rim_diameter_in": {
+        "value": 16.0,
+        "unit": "inch",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 215.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "aspect_ratio": {
+        "value": 60.0,
+        "unit": "%",
+        "status": "verified"
+      },
+      "deflection_factor": {
+        "value": 0.97,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard radial tyre deflection factor under vehicle load"
+      }
+    },
+    "weights": {
+      "kerb_mass_kg": {
+        "value": 1335.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "gross_vehicle_mass_kg": {
+        "value": 1756.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "front_weight_share": {
+        "value": 0.62,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Front-biased diesel engine mass distribution (cast-iron engine block + turbo hardware)"
+      },
+      "cg_height_m": {
+        "value": 0.595,
+        "unit": "m",
+        "status": "assumed",
+        "rationale": "CG height estimation based on 208 mm ground clearance"
+      }
+    },
+    "aerodynamics_road": {
+      "drag_coefficient": {
+        "value": 0.36,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Compact SUV aerodynamic profile estimation"
+      },
+      "frontal_area_m2": {
+        "value": 2.35,
+        "unit": "m\u00b2",
+        "status": "assumed",
+        "rationale": "Frontal projected area estimation (approx 0.80 \u00d7 W \u00d7 H)"
+      },
+      "air_density_kg_m3": {
+        "value": 1.225,
+        "unit": "kg/m\u00b3",
+        "status": "assumed",
+        "rationale": "ISA sea-level standard air density"
+      },
+      "rolling_resistance_coeff": {
+        "value": 0.015,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Radial passenger tyres on smooth asphalt"
+      },
+      "tyre_road_adhesion": {
+        "value": 0.8,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Dry asphalt road surface adhesion"
+      }
+    },
+    "clutch": {
+      "outer_diameter_mm": {
+        "value": null,
+        "unit": "mm",
+        "status": "unavailable",
+        "note": "Clutch friction face dimensions are proprietary service data not published publicly."
+      },
+      "inner_diameter_mm": {
+        "value": null,
+        "unit": "mm",
+        "status": "unavailable"
+      },
+      "friction_coefficient": {
+        "value": 0.35,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard organic dry clutch lining friction coefficient"
+      },
+      "friction_surfaces": {
+        "value": 2,
+        "unit": "-",
+        "status": "verified"
+      },
+      "safety_factor": {
+        "value": 1.25,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard commercial automotive clutch design safety factor"
+      }
+    },
+    "awd_hypothetical": {
+      "supported": false,
+      "note": "AWD calculations disabled; vehicle is strictly front-wheel drive (FWD)."
+    }
+  },
+  "maruti_suzuki_brezza_15_petrol_6mt": {
+    "id": "maruti_suzuki_brezza_15_petrol_6mt",
+    "name": "Maruti Suzuki Brezza",
+    "variant": "1.5 K15C Smart Hybrid Petrol 6MT",
+    "model_year": "2024",
+    "manufacturer": "Maruti Suzuki",
+    "fuel_type": "Petrol",
+    "drivetrain": "FWD",
+    "transmission": "6-Speed Manual",
+    "description": "Maruti Suzuki Brezza 1.5L K15C DualJet Smart Hybrid Petrol with 6-speed manual transmission.",
+    "source_reference": "Maruti Suzuki Arena Official Brochure & Technical Data",
+    "source_url": "https://www.marutisuzuki.com/channels/arena/suvs/brezza",
+    "source_type": "Official Manufacturer Brochure",
+    "dimensions": {
+      "length_mm": {
+        "value": 3995.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 1790.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "height_mm": {
+        "value": 1685.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "wheelbase_mm": {
+        "value": 2500.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "ground_clearance_mm": {
+        "value": 198.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "boot_capacity_l": {
+        "value": 328.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "fuel_tank_capacity_l": {
+        "value": 48.0,
+        "unit": "L",
+        "status": "verified"
+      },
+      "turning_radius_m": {
+        "value": 5.0,
+        "unit": "m",
+        "status": "verified"
+      }
+    },
+    "engine": {
+      "displacement_cc": {
+        "value": 1462.0,
+        "unit": "cc",
+        "status": "verified"
+      },
+      "cylinders": {
+        "value": 4,
+        "unit": "-",
+        "status": "verified"
+      },
+      "max_power_kw": {
+        "value": 75.8,
+        "unit": "kW",
+        "status": "verified"
+      },
+      "rated_power_rpm": {
+        "value": 6000.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "max_torque_nm": {
+        "value": 136.8,
+        "unit": "Nm",
+        "status": "verified"
+      },
+      "torque_rpm_range": {
+        "value": "4400 (Peak)",
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_start_rpm": {
+        "value": 4400.0,
+        "unit": "rpm",
+        "status": "verified"
+      },
+      "torque_plateau_end_rpm": {
+        "value": 4400.0,
+        "unit": "rpm",
+        "status": "verified"
+      }
+    },
+    "transmission_ratios": {
+      "gear_ratios": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable",
+        "note": "Maruti Suzuki does not publish numerical gear ratios in public brochures or owner manuals."
+      },
+      "reverse_gear_ratio": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable"
+      },
+      "final_drive_ratio": {
+        "value": null,
+        "unit": "-",
+        "status": "unavailable"
+      },
+      "transmission_efficiency": {
+        "value": 0.9,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Common engineering assumption for transverse 6MT transaxles"
+      }
+    },
+    "tyres": {
+      "tyre_spec": {
+        "value": "215/60 R16",
+        "unit": "-",
+        "status": "verified"
+      },
+      "rim_diameter_in": {
+        "value": 16.0,
+        "unit": "inch",
+        "status": "verified"
+      },
+      "width_mm": {
+        "value": 215.0,
+        "unit": "mm",
+        "status": "verified"
+      },
+      "aspect_ratio": {
+        "value": 60.0,
+        "unit": "%",
+        "status": "verified"
+      },
+      "deflection_factor": {
+        "value": 0.97,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard radial tyre deflection factor under vehicle load"
+      }
+    },
+    "weights": {
+      "kerb_mass_kg": {
+        "value": 1135.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "gross_vehicle_mass_kg": {
+        "value": 1640.0,
+        "unit": "kg",
+        "status": "verified"
+      },
+      "front_weight_share": {
+        "value": 0.59,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Front-engine front-wheel-drive compact petrol SUV weight distribution estimation"
+      },
+      "cg_height_m": {
+        "value": 0.585,
+        "unit": "m",
+        "status": "assumed",
+        "rationale": "CG height estimation based on 198 mm ground clearance"
+      }
+    },
+    "aerodynamics_road": {
+      "drag_coefficient": {
+        "value": 0.36,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Compact boxy SUV aerodynamic profile estimation"
+      },
+      "frontal_area_m2": {
+        "value": 2.38,
+        "unit": "m\u00b2",
+        "status": "assumed",
+        "rationale": "Frontal projected area estimation (approx 0.79 \u00d7 W \u00d7 H)"
+      },
+      "air_density_kg_m3": {
+        "value": 1.225,
+        "unit": "kg/m\u00b3",
+        "status": "assumed",
+        "rationale": "ISA sea-level standard air density"
+      },
+      "rolling_resistance_coeff": {
+        "value": 0.015,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Radial passenger tyres on smooth asphalt"
+      },
+      "tyre_road_adhesion": {
+        "value": 0.8,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Dry asphalt road surface adhesion"
+      }
+    },
+    "clutch": {
+      "outer_diameter_mm": {
+        "value": null,
+        "unit": "mm",
+        "status": "unavailable",
+        "note": "Clutch friction face dimensions are proprietary service data not published publicly."
+      },
+      "inner_diameter_mm": {
+        "value": null,
+        "unit": "mm",
+        "status": "unavailable"
+      },
+      "friction_coefficient": {
+        "value": 0.35,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard organic dry clutch lining friction coefficient"
+      },
+      "friction_surfaces": {
+        "value": 2,
+        "unit": "-",
+        "status": "verified"
+      },
+      "safety_factor": {
+        "value": 1.25,
+        "unit": "-",
+        "status": "assumed",
+        "rationale": "Standard commercial automotive clutch design safety factor"
+      }
+    },
+    "awd_hypothetical": {
+      "supported": false,
+      "note": "AWD calculations disabled; vehicle is strictly front-wheel drive (FWD)."
+    }
+  }
+}
